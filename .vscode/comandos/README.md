@@ -13,6 +13,6 @@ git config --global user.email 'seu_email@gmail.com'
 git config --global init.defaultBranch main
 # Configure o .gitignore
 git init
-git add .
-git commit -m 'Mensagem'
-git remote add origin URL_DO_GIT
+git add . (esse comando adiciona um arquivo no Git)
+git commit -m 'Mensagem' (normalmente a primeira mensagem é Initial)
+git remote add origin URL_DO_GIT (ver vídeo expplicativo)
