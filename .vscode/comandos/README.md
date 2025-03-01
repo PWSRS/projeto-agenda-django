@@ -5,6 +5,8 @@ python -m venv venv
 . \venv\scripts\activate (ativa o ambiente virutal)
 pip install django
 django-admin startproject project .
+python manage.py startapp contact (cria o App Contact)
+# após isso copiar o nome do App criado e colocar no settings dentro do projeto e colcar em INSTALLED_APPS
 
 # Configurar o git
 
